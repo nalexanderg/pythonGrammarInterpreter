@@ -1,0 +1,33 @@
+let x : real = 6.0 ;
+		y : int = 8 ;
+		z : real = 2.0 ;
+		r : real = 3.0 ;
+in
+	real ( x + real ( y ) / z - r )
+end ;
+
+let r : real = 10.0 ;
+	  pi : real = 3.1416 ;
+in
+	real ( pi * r * r )
+end ;
+
+let x : int = 7 ;
+    y : real = 3.0 ;
+in
+	real ( ( real ( x ) + y ) * ( real ( x ) - y ) )
+end ;
+
+let a : int = 7 ;
+    b : real  = real ( a ) + 3.0 ;
+in
+	int ( a * int ( b ) - a )
+end ;
+
+let num : int = 9 ;
+		const : real = 4.0 ;
+in
+	real ( real ( num ) / const )
+end ;
+
+let x = 8 ; in ( x + y ) end ;
